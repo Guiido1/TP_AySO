@@ -1,0 +1,489 @@
+vagrant home
+vagrant
+vagrant -- help
+home
+-home
+repogit
+cd etc/
+cd
+cd etc/
+etc
+cd
+etc
+/cd etc
+cd
+/etc %
+/etc$
+/etc $
+catpwd
+cd
+cd/etc
+cd etc/
+cd users
+home
+--a
+-a
+-tag
+login
+root
+vagrant login
+login
+log
+cd etc
+pwd
+/etc
+cd
+/etc
+-basg
+-bash
+ls
+cd repogit
+cd
+/etxc
+/etc
+cd carpeta_compartida
+pwd
+cd/etc
+etc
+&etc
+/etc
+ls
+ls -la /home/vagrant
+/etc
+/cd/etc
+cd..
+cd.
+cd..
+pw
+pwd
+pwd..
+pwd
+cd ..
+ls -l
+cd etc
+/etc
+pwd
+exit
+cat << FIN > ejemplo.txt
+hola
+como
+estas
+bien
+FIN
+
+cat ejemplo.txt
+cat << FIN >> ejemplo.txt
+bien y vos?
+FIN
+
+cat ejemplo.txt 
+cat ejemplo.txt | grep clase
+deja
+--help
+-- help
+vagrant help
+vagrant kill
+kill
+lś
+ls
+ssh key-gen
+vagrant ssh
+ls-l 
+ssh key-gen
+ssh-keygen
+cat $HOME/.ssh/*pub.
+ssh-keygen
+y
+ssh-keygen
+cat /home/ssh/*pub.
+vagrant kill
+ssh kill
+ssh down
+cd
+whoami
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:Guiido1/TP_AySO.git
+cd TP_AYSO
+cd TP_AySO/
+pwd
+ls -l
+cd
+cat /etc/passwd 
+man grep
+grep UBUNTU /etc/passwd 
+grep ubuntu /etc/passwd
+man grep
+grep -i Ubuntu /etc/passwd
+whoami
+grep $(whoami) /etc/passwd
+grep $(whoami) /etc/passwd | awk -F: '{print $2}'
+grep $(whoami) /etc/passwd | awk -F: '{print $2}' > datos_usuario.txt
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+cat datos_usuario.txt
+git add
+git add datos_usuario.txt 
+pwd
+cd repogit
+cd TP_AySO/
+pwd
+ls
+cd
+ls
+vagrant help
+mv datos_usuario.txt repogit/TP_AySO/
+cd repogit/TP_AySO/
+ls
+git add .
+git config --global user.email "guidoguillermogomez1@gmail.com" 
+git config --global user.name "Guiido1"
+git commit -m "ADD: agregado 1er ejercicio 
+sobre datos_usuarios.txt"
+git status
+git push
+Guido@Pc-Guido MINGW64 ~/Desktop/Arquitectura y Sistemas/UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo/.vagrant (master)
+$ vagrant status
+Current machine states:
+default                   poweroff (virtualbox)
+The VM is powered off. To restart the VM, simply run `vagrant up`
+Guido@Pc-Guido MINGW64 ~/Desktop/Arquitectura y Sistemas/UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo/.vagrant (master)
+$ vagrant up
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Checking if box 'ubuntu/jammy64' version '20241002.0.0' is up to da
+te...
+==> default: Clearing any previously set forwarded ports...
+==> default: Clearing any previously set network interfaces...
+==> default: Preparing network interfaces based on configuration...
+==> default: Forwarding ports...
+==> default: Running 'pre-boot' VM customizations...
+==> default: Booting VM...
+==> default: Waiting for machine to boot. This may take a few minutes...
+==> default: Machine booted and ready!
+==> default: Checking for guest additions in VM...
+f
+he
+on
+==> default: Setting hostname...
+==> default: Configuring and enabling network interfaces...
+==> default: Mounting shared folders...
+agrantFiles/1_equipo => /home/vagrant/carpeta_compartida
+==> default: Machine already provisioned. Run `vagrant provision` or use the `--
+provision`
+==> default: flag to force provisioning. Provisioners marked to run always will
+still run.
+==> default: Machine 'default' has a post `vagrant up` message. This is a messag
+e
+==> default: from the creator of the Vagrantfile, and not from Vagrant itself:
+==> default:
+==> default:   #################################################################
+##########
+==> default:   #
+==> default:   # Para Ingresar a la VM puede usar cualquiera de las dos opciones
+:
+==> default:   #
+==> default:   #################################################################
+##########
+==> default:   # 1. (usar Vagrant)
+==> default:
+==> default:   vagrant ssh
+==> default:
+==> default:   # 2. Usar SSH indicando la key Privada
+==> default:   # Puede usar la private_key proporcionada por vagrant
+==> default:
+==> default:   ssh -i .vagrant/machines/default/virtualbox/private_key vagrant@1
+92.168.56.2
+==> default:
+Guido@Pc-Guido MINGW64 ~/Desktop/Arquitectura y Sistemas/UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo/.vagrant (master)
+$ vagrant ssh
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-176-generic x86_64)
+Expanded Security Maintenance for Applications is not enabled.
+26 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+New release '24.04.4 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+Last login: Thu May 14 18:07:55 2026 from 10.0.2.2
+vagrant@VMPruebas:~$ cd
+vagrant@VMPruebas:~$ whoami
+vagrant
+vagrant@VMPruebas:~$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/vagrant/.ssh/id_rsa):
+/home/vagrant/.ssh/id_rsa already exists.
+Overwrite (y/n)?
+vagrant@VMPruebas:~$
+vagrant@VMPruebas:~$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/vagrant/.ssh/id_rsa):
+/home/vagrant/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/vagrant/.ssh/id_rsa
+Your public key has been saved in /home/vagrant/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:XeIPZaSUN4K6PAc9DiExjww7yiBoI7ugVaKFwOzVuZM vagrant@VMPruebas
+The key's randomart image is:
++---[RSA 3072]----+
+|+ . +..  ....    |
+|o+ =.*. ..ooo    |
+|Bo* +.++  oo+.   |
+|**.+ E+ oo =     |
+|=..  ..=S.+      |
+|oo    + o  o     |
+|o      o    .    |
+|                 |
+|                 |
++----[SHA256]-----+
+vagrant@VMPruebas:~$ cat $HOME/.ssh/*.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDCB3Tg/tme7G4Qzv9BKTodlNXnRfwNzjJ9+ny+vmZSEcchoSJMfnCmrdnPRzlzBP4AfJeJhVGZ4rquBocpAcO+nWvaahvr778GfJl5mX7XhBCa8RQuG3Qvix0+9z8Qfni9IOUevTzwAlMjDyVYg4PrRRw1Dyw0v8Zz67EA5AueQFaMOiWSgdMVM8G1PbBkhZY9vOBQitp3ddniHUrklftCjEm2HLsqv3
+XesBmibXsXO9uEBjmGth+7nPwVqwdiVUW4E7CBNbwp2F/TWk+rIefH/4grrMsQ73PmvSouAawhpoUExiigJy1he0z3fNaWIEESazPc6/L5p6hz5d3C6APqAquBn4+egPTcPjWmD6i1OpzL60BB9q5jFBJEDAzmDSp4bo8kGyjlkjb5tFTaI8UFnrDsSCFqCfKQYR9wqqF1D8UT7tHWCtkIRE6CP2/ORrEwHMPKWSzeEH1CNmBgUJI/kr4JNnQUj/O2TxA0
+ve4NCi5Nvy/sx35tX5PEhYpKnVs= vagrant@VMPruebas
+vagrant@VMPruebas:~$ cd
+vagrant@VMPruebas:~$ mkdir repogit
+mkdir: cannot create directory ‘repogit’: File exists
+vagrant@VMPruebas:~$ cd repogit
+vagrant@VMPruebas:~/repogit$ git clone git@github.com:Guiido1/TP_AySO.git
+Cloning into 'TP_AySO'...
+The authenticity of host 'github.com (4.228.31.150)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+vagrant@VMPruebas:~/repogit$ cd TP_AYSO
+-bash: cd: TP_AYSO: No such file or directory
+vagrant@VMPruebas:~/repogit$ cd TP_AySO/
+vagrant@VMPruebas:~/repogit/TP_AySO$ pwd
+/home/vagrant/repogit/TP_AySO
+vagrant@VMPruebas:~/repogit/TP_AySO$ ls -l
+total 4
+-rw-rw-r-- 1 vagrant vagrant 48 May 14 19:07 README.md
+vagrant@VMPruebas:~/repogit/TP_AySO$ cd
+vagrant@VMPruebas:~$
+vagrant@VMPruebas:~$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:102:105::/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:103:106:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+syslog:x:104:111::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:112:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:113::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:108:114::/nonexistent:/usr/sbin/nologin
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+pollinate:x:110:1::/var/cache/pollinate:/bin/false
+landscape:x:111:116::/var/lib/landscape:/usr/sbin/nologin
+fwupd-refresh:x:112:117:fwupd-refresh user,,,:/run/systemd:/usr/sbin/nologin
+vagrant:x:1000:1000:,,,:/home/vagrant:/bin/bash
+ubuntu:x:1001:1001:Ubuntu:/home/ubuntu:/bin/bash
+lxd:x:999:100::/var/snap/lxd/common/lxd:/bin/false
+vagrant@VMPruebas:~$ man grep
+vagrant@VMPruebas:~$
+vagrant@VMPruebas:~$ grep UBUNTU /etc/passwd
+vagrant@VMPruebas:~$ grep ubuntu /etc/passwd
+ubuntu:x:1001:1001:Ubuntu:/home/ubuntu:/bin/bash
+vagrant@VMPruebas:~$ man grep
+vagrant@VMPruebas:~$ grep -i Ubuntu /etc/passwd
+ubuntu:x:1001:1001:Ubuntu:/home/ubuntu:/bin/bash
+vagrant@VMPruebas:~$ whoami
+vagrant
+vagrant@VMPruebas:~$ grep $(whoami) /etc/passwd
+vagrant:x:1000:1000:,,,:/home/vagrant:/bin/bash
+vagrant@VMPruebas:~$ grep $(whoami) /etc/passwd | awk -F: '{print $2}'
+x
+vagrant@VMPruebas:~$ grep $(whoami) /etc/passwd | awk -F: '{print $2}' > datos_usuario.txt
+vagrant@VMPruebas:~$ echo "Usuario=$(whoami)" >> datos_usuario.txt
+vagrant@VMPruebas:~$ cat datos_usuario.txt
+x
+Usuario=vagrant
+vagrant@VMPruebas:~$ git add
+fatal: not a git repository (or any of the parent directories): .git
+vagrant@VMPruebas:~$ git add datos_usuario.txt
+fatal: not a git repository (or any of the parent directories): .git
+vagrant@VMPruebas:~$ pwd
+/home/vagrant
+vagrant@VMPruebas:~$ cd repogit
+vagrant@VMPruebas:~/repogit$ cd TP_AySO/
+vagrant@VMPruebas:~/repogit/TP_AySO$ pwd
+/home/vagrant/repogit/TP_AySO
+vagrant@VMPruebas:~/repogit/TP_AySO$ ls
+README.md
+vagrant@VMPruebas:~/repogit/TP_AySO$ ls
+README.md
+vagrant@VMPruebas:~/repogit/TP_AySO$ cd
+vagrant@VMPruebas:~$ ls
+README  carpeta_compartida  datos_usuario.txt  ejemplo.txt  repogit
+vagrant@VMPruebas:~$ vagrant help
+Command 'vagrant' not found, but can be installed with:
+apt install vagrant
+Please ask your administrator.
+vagrant@VMPruebas:~$ mv datos_usuario.txt repogit/TP_AySO/
+vagrant@VMPruebas:~$ cd repogit/TP_AySO/
+vagrant@VMPruebas:~/repogit/TP_AySO$ ls
+README.md  datos_usuario.txt
+vagrant@VMPruebas:~/repogit/TP_AySO$ git add .
+vagrant@VMPruebas:~/repogit/TP_AySO$ git config --global user.email "guidoguillermogomez1@gmail.com"
+vagrant@VMPruebas:~/repogit/TP_AySO$ git config --global user.name "Guiido1"
+vagrant@VMPruebas:~/repogit/TP_AySO$ git commit -m "ADD: agregado 1er ejercicio
+> sobre datos_usuarios.txt"
+[main 6ccdea5] ADD: agregado 1er ejercicio sobre datos_usuarios.txt
+vagrant@VMPruebas:~/repogit/TP_AySO$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+nothing to commit, working tree clean
+vagrant@VMPruebas:~/repogit/TP_AySO$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 339 bytes | 339.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Guiido1/TP_AySO.git
+vagrant@VMPruebas:~/repogit/TP_AySO$
+cd
+/proc/cpuinfo
+cat /proc/cpuinfo
+grep "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo |  awk -F 
+grep "model name" /proc/cpuinfo | awk -F ´:´ ´{print$2}´
+grep "model name" /proc/cpuinfo | awk -F: '{print $2}'
+grep "model name" /proc/cpuinfo | awk -F: '{print $2}' | head -n1
+grep "model name" /proc/cpuinfo | awk -F: '{print $2}' | head -n1 > info_pc.txt
+cat info_pc.txt 
+git --help
+git add
+cd repogit/
+cd TP_AySO/
+cd
+pwd
+ls
+mv info_pc.txt repogit/
+cd repogit/
+ls
+mv info_pc.txt TP_AySO/
+cd TP_AySO/
+ls
+git add
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+git push
+ls -l
+rm default\: 
+rm main 
+ls -l
+ls
+git add .
+git commit -m "fix: eliminando archivos accidentales"
+git push
+cat datos_usuario.txt 
+grep $(whoami) /etc/passwd | awk -F: '{print $2}' > datos_usuario.txt
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+git commit -m "fix: corrigiendo datos_usuario.txt"
+git push
+pwd
+grep -v "nologin" /etc/passwd
+grep -v "nologin" /etc/passwd | head -n10
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+cat lista_ordenada
+ls
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+pwd
+cat README.md
+cat << FIN >> README.md 
+Alumno : Guido
+División : 116
+Turno : Mañana
+FIN
+
+cat README.md 
+git add .
+git commit -m "docs: agregando información del alumno"
+git push
+d
+cd
+sudo dnf install tree
+sudo apt install tree
+cd
+mkdir -p TP1/{arquitectura/Clase{1..5},so/Clase{1..6}}
+tree TP1/
+cd repogit/
+cd TP_AySO/
+pwd
+echo 'mkdir -p TP1/{arquitectura/Clase{1..5},so/Clase{1..6}}' > script_dir.sh
+cat script_dir.sh 
+rm script_dir.sh 
+ls
+cat << FIN > script_dir.sh
+mkdir -p TP1/{arquitectura/Clase{1..5},so/Clase{1..6}}
+pwd
+FIN
+
+rm script_dir.sh 
+<< FIN > script_dir.sh
+mkdir -p TP1/{arquitectura/Clase{1..5},so/Clase{1..6}}
+FIN
+
+ls
+cat script_dir.sh 
+at script_dir.sh
+vagrant@VMPruebas:~/repogit/TP_AySO$
+chmod +x script_dir.sh
+./script_dir.sh
+cat script_dir.sh 
+rm script_dir.sh 
+echo 'mkdir -p TP1/{arquitectura/Clase{1..5},so/Clase{1..6}}' > script_dir.sh
+cat script_dir.sh 
+chmod +x script_dir.sh
+ls -l script_dir.sh
+git status
+git status script_dir.sh 
+git --help
+pwd
+ls
+cat script_dir.sh 
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+cat script_dir.sh
+./script_dir.sh
+tree TP1/
+pwd
+history -a
+cp ../../../.bash_history Historial_comandos_GomezGuido.txt
+history -a
+cp ../../../.bash_history Historial_comandos_GomezGuido.txt
+pwd
+history -a
